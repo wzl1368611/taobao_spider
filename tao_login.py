@@ -111,6 +111,7 @@ def get_orders(my_cookie):
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
         'x-requested-with': 'XMLHttpRequest'
     }
+    '''
     broswer_cookie = '_samesite_flag_=true; cookie2=1e84f3524c032f4df0432ada158a26bf; t=5cf8c0e2ad4d179a63b35c5c7891206b; _tb_token_=78be6b64e38ee; cna=OeUZGFs+4zUCARsm/kyjLoC1; xlly_s=1; lgc=aa1977840861; dnk=aa1977840861; tracknick=aa1977840861; _cc_=V32FPkk%2Fhw%3D%3D; mt=ci=-1_0; thw=cn; l=eBNjyvycOp4Nymx2KO5a-urza77OPIOfcrVzaNbMiInca6M1TF6EkNQV3kFB7dtjit5fcLxlmtmRRRnkPfULRKOvjLhCPlUOrip6Je1..; isg=BIyMXzx3P00cmSsxYQd2da4YXeq-xTBv7FlXqeZMvTfKcSR7JNFY_2zDEXjJP2jH; tfstk=c7wcBQspDSlfsnhuOtMbvWnNL97da1CqlRyzU8yS9p8uG_2r0sDHaB7RBg0YoRd1.; sgcookie=E100IdRpkNGakaNfftr4YJC5xz%2BRA2YRYhQdCDjzZ4qit93PHfwfk3pasX40xn5frGp9ufWu7PvJyBWQdhro%2BmboSw%3D%3D; unb=1081686429; uc1=pas=0&cookie15=U%2BGCWk%2F75gdr5Q%3D%3D&cookie14=Uoe0bk1nmCgwNg%3D%3D&cookie21=VT5L2FSpdet1FS8C2gIFaQ%3D%3D&cookie16=VFC%2FuZ9az08KUQ56dCrZDlbNdA%3D%3D&existShop=false; uc3=lg2=Vq8l%2BKCLz3%2F65A%3D%3D&nk2=AnDVLVDQ74FuN5%2Bf&id2=UoH38lxlrMGVoQ%3D%3D&vt3=F8dCufJDy7NARwl837k%3D; csg=5ea4c88d; cookie17=UoH38lxlrMGVoQ%3D%3D; skt=63157293cb5ae614; existShop=MTYwMzQ2ODk5MQ%3D%3D; uc4=nk4=0%40AJshdHhcHunBX3daT3SZEmgGH3VUv8Q%3D&id4=0%40UOnojfZl0YaV%2B%2BEAtPeFlNUMvpFW; _l_g_=Ug%3D%3D; sg=196; _nk_=aa1977840861; cookie1=BxUEep3zFLIewQ9V3tWAOxmrjWZRAQAsUvVRNDTjAK8%3D'
     broswer_headers = {
         'authority': 'i.taobao.com',
@@ -129,6 +130,7 @@ def get_orders(my_cookie):
         'upgrade-insecure-requests': '1',
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36'
     }
+    '''
     # 'cookie':my_cookie,
     for i in range(1, 3):
 
