@@ -35,8 +35,9 @@ def login():
     for handle in driver.window_handles:  # 方法二，始终获得当前最后的窗口
         driver.switch_to.window(handle)
     # 输入账号密码
-    user = '你的淘宝账号'
-    passwd = '你的密码'
+    user = 'asdsdasddfas'
+    # 输入你的密码
+    passwd = 'asdaffsdda'
     # id="fm-login-id"
     # id="fm-login-password"
     input_user = driver.find_element_by_id('fm-login-id')
